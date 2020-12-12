@@ -1,11 +1,60 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<title>Welcome to M-Bias || Please Login</title>
+<%- include('./partials/navbar') %>
+<div class="row m-0 hero-content justify-content-center">
+  <!-- <figure class="figure">
+    <img
+      class="img-fluid px-3 mt-2"
+      src="/img/edu_illustration.png"
+      alt="..."
+    />
+  </figure> -->
+  <div class="pl-4 pr-4 pb-4 pt-0 text-center mx-lg-5 mx-md-3">
+    <h3 class="text-dark badge-light p-3 mx-lg-5 mx-md-3">
+      <span class="text-info">M-Bias</span> a Digital Content Platform,
+      Specifically tailoered for HSC Students directly alligned with thier text
+      books and easily accessible at their finger tips with just a QR Code scan.
+    </h3>
+  </div>
+</div>
+<hr />
+<div class="row justify-content-center mx-auto mt-3">
+  <div class="col-sm-10 col-md-6 col-lg-6 my-auto">
+    <h3 class="text-wrap text-center">
+      <span class="text-dark">M-Bias</span><br />
+      We want to lead in generating practical quality content that helps
+      students in understanding the world around us and logically improve our
+      community.
+    </h3>
+  </div>
+  <div class="col-sm-6 col-md-5 col-lg-4 text-center">
+    <!-- <img class="img-fluid" src="/img/mission.png" alt="" /> -->
+  </div>
+</div>
+
+<div class="row justify-content-center mx-auto mt-3 vision-banner">
+  <div class="col-sm-6 col-md-5 col-lg-4 col-xs-6 text-center my-3">
+    <!-- <img class="img-fluid w-auto" src="/img/vision.png" alt="" /> -->
+  </div>
+  <div class="col-sm-10 col-md-6 col-lg-8 my-auto">
+    <h3 class="text-center text-white my-4">
+      <span class="text-white-50">Our Vision</span><br />
+      Our Vision is to give our next generation what we missed in our education
+      system in past few decades, A new perspective of how education relates to
+      our daily life.
+    </h3>
+  </div>
+</div>
+<div class="row row-cols-1 m-0 justify-content-center">
+  <div class="col col-sm-12 col-md-10 col-lg-10 pt-3">
+    <h3 class="text-center">
+      <span class="text-info">Smart and simple</span><br />
+      We want to lead in generating practical quality content that helps
+      students in understanding the world around us and logically improve our
+      community.
+    </h3>
+  </div>
+  <div class="col col-sm-12 col-md-8 col-lg-8 col-xs-12 px-5">
+    <!-- <img class="img-fluid" src="/img/demo.png" alt="" /> -->
+  </div>
+</div>
+<%-include('./partials/footer.ejs') %>
