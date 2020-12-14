@@ -1,0 +1,82 @@
+<title>Contact to PROVA TECHNOTRADE</title> <%- include('./partials/navbar') %>
+<div class="row justify-content-center mx-auto">
+  <div class="col-sm-10 col-md-4 col-lg-4 col-xl-4 my-5">
+    <h3 class="mb-4">Contact us</h3>
+    <h4>Location</h4>
+    <address class="lead mb-4">
+      Gala No. 114, Bldg No. 5, Jogani industrial estate, Chunabhatti,
+      Mumbai-400022.
+    </address>
+    <h4>Email</h4>
+    <p class="lead mb-4">
+      <a class="" href="mailto:labsales@prova.co.in">
+        <span class="text-info">labsales@prova.co.in</span></a
+      >
+    </p>
+    <h4>Call</h4>
+    <h4 class="m-0 lead">
+      <a href="tel:+919757494167"
+        ><span class="text-info">+919757494167</span></a
+      >
+      /
+      <a href="tel:022-24056849"><span class="text-info">022-24056849</span></a>
+    </h4>
+  </div>
+  <div class="col-sm-10 col-md-6 col-lg-6 col-xl-6 my-5">
+    <form>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6">
+          <label class="lead" for="exampleInputName">Name</label>
+          <input
+            type="texr"
+            class="form-control"
+            id="exampleInputName"
+            aria-describedby="nameHelp"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form-group col-sm-12 col-md-6">
+          <label class="lead" for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col">
+          <label class="lead" for="exampleInputSubject">Subject</label>
+          <input
+            type="texr"
+            class="form-control"
+            id="exampleInputSubject"
+            aria-describedby="SubjectHelp"
+            placeholder="Enter your Subject"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col">
+          <label class="lead" for="exampleTextarea">Query / Message</label>
+          <textarea
+            class="form-control"
+            id="exampleTextarea"
+            aria-describedby="SubjectHelp"
+            placeholder="Enter your Query here"
+            cols="10"
+            rows="6"
+          ></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-outline-success">
+          Send Query
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<%-include('./partials/footer.ejs') %>
